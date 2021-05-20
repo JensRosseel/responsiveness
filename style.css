@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+}
+#small{
+    width: 33%;
+    float: left;
+}
+#medium{
+    width: 33%;
+    float: left;
+}
+#large{
+    width: 33%;
+    float: left;
+}
+@media only screen and (max-width: 1024px){
+    body{
+        background-color: green;
+    }
+    #small{
+        width: 66%;
+    }
+    #medium{
+        width: 33%;
+    }
+    #large{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px){
+    body{
+        background-color: red;
+    }
+    #small{
+        width: 100%;
+    }
+    #medium{
+        width: 100%;
+    }
+}
